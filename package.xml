@@ -1,0 +1,33 @@
+<package>
+    <name>dummy_package</name>
+    <version>2.0.0</version>
+    <description>
+
+        Lorem ipsum dolor sit amet, curabitur sed. Pretium sed. Odio voluptatem vivamus, elit in lacus. Integer nullam morbi, lobortis consequat pulvinar sit odio etiam, lobortis nascetur, eget ornare ab amet tristique elit. Sem elit viverra, nullam luctus ut vitae.
+
+    </description>
+    <author>Alexis Pojomovsky</author>
+    <author email="apojomovsky@gmail.com">apojomovsky@gmail.com</author>
+    <license>BSD</license>
+    <url type="website">http://github.com/apojomovsky/dummy_package</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>actionlib_msgs</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>message_generation</build_depend>
+
+    <run_depend>actionlib_msgs</run_depend>
+    <run_depend>geometry_msgs</run_depend>
+    <run_depend>message_runtime</run_depend>
+
+
+  <export>
+    <rosindex>
+      <readme>doc/README.md</readme>
+      <readme>doc/SECOND_README.md</readme>
+    </rosindex>
+  </export>
+
+</package>
+
